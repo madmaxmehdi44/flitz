@@ -1,7 +1,7 @@
 {
   "name": "FLITZ",
   "short_name": "FLITZ",
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "description": "The Feed App Boilerplate — built on Blitz.js.",

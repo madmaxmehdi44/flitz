@@ -1,17 +1,17 @@
 // eslint-disable-next-line no-undef
-importScripts("https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js")
+importScripts("https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js")
 // eslint-disable-next-line no-undef
-importScripts("https://www.gstatic.com/firebasejs/8.2.1/firebase-messaging.js")
+importScripts("https://www.gstatic.com/firebasejs/9.14.0/firebase-messaging.js")
 
 // eslint-disable-next-line no-undef
 firebase.initializeApp({
-  apiKey: "AIzaSyD2b6pGpKgvK1S5Cs1Li5pxoKhxukJnq1k",
-  authDomain: "tpeuv52dazlcddyklpjh.firebaseapp.com",
-  projectId: "tpeuv52dazlcddyklpjh",
-  storageBucket: "tpeuv52dazlcddyklpjh.appspot.com",
-  messagingSenderId: "442865436980",
-  appId: "1:442865436980:web:8143153deef6c48d2dfd61",
-  measurementId: "G-NVP74C2KYQ",
+  apiKey: "AIzaSyByNJBwKMofz-yj8iOs1WzQD5kx8zHbI4c",
+  authDomain: "sssdsa-289e5.firebaseapp.com",
+  projectId: "sssdsa-289e5",
+  storageBucket: "sssdsa-289e5.appspot.com",
+  messagingSenderId: "232583032985",
+  appId: "1:232583032985:web:43d62cf755456e03dc0808",
+  measurementId: "G-6FERCC2J63",
 })
 
 // eslint-disable-next-line no-undef

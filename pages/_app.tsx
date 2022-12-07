@@ -1,5 +1,6 @@
 import "reflect-metadata"
 import "infrastructure/errors"
+import "i18next"
 import { AppProps, BlitzPage, ErrorBoundary } from "@blitzjs/next"
 import { useQueryErrorResetBoundary } from "@blitzjs/rpc"
 import { ChakraProvider } from "@chakra-ui/react"

@@ -6,7 +6,7 @@
   },
   "jest.autoRun": "off",
   "typescript.preferences.importModuleSpecifier": "non-relative",
-  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.tsdk": "node_modules\\typescript\\lib",
   "files.exclude": {
     "**/node_modules": true,
     "*.lock": true,
@@ -29,10 +29,16 @@
     "flitz",
     "followee",
     "Followees",
+    "hookform",
+    "jdenticon",
+    "killall",
+    "languagedetector",
     "maxage",
+    "nestjs",
     "notificaiton",
     "tsbuildinfo",
     "tsyringe",
     "unfollow"
-  ]
+  ],
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }

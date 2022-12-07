@@ -6,6 +6,7 @@ const packageJSON = require("./package.json")
  **/
 const nextConfig = {
   reactStrictMode: true,
+  // experimental: { appDir: true },
   eslint: {
     ignoreDuringBuilds: true,
   },

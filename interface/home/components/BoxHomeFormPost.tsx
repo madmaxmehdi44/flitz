@@ -51,7 +51,7 @@ export const BoxHomeFormPost: FC = () => {
       toast({ status: "success", title: "Success" })
     } catch (error) {
       if (error instanceof Error) {
-        toast({ status: "error", title: error.message })
+        toast({ status: "error", title: error.stack })
       }
     }
   }
@@ -73,7 +73,7 @@ export const BoxHomeFormPost: FC = () => {
             style={{ transition: "none" }}
             disabled={isLoading}
             onChange={(event) => setText(event.target.value)}
-            placeholder={t`What's happening?`}
+            // placeholder={t`What's happening?`  | undefined }
             minRows={2}
             value={text}
             w={"full"}
@@ -105,7 +105,7 @@ export const BoxHomeFormPost: FC = () => {
           isDisabled={isDisabled}
           isLoading={isLoading}
           leftIcon={<Icon as={FiSend} />}
-          loadingText={t`Submit`}
+          loadingText={t`Submit` || undefined}
           onClick={onCreatePost}
           variant={"outline"}
         >
